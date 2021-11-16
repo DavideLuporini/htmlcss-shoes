@@ -1,0 +1,95 @@
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+.clearfix{
+       display: table;
+       content: '';
+       clear: both;
+}
+   
+body{
+       font-family: 'Rubik Mono One', sans-serif;
+       overflow: hidden;
+}
+
+.text50px{
+       font-size: 40px;
+   }
+.text-yellow{
+   color: yellow;
+}
+.text-green{
+   color: green;
+}
+.bgc-red{
+   background-color: red;
+}
+.bgc-yellow{
+   background-color: yellow;
+}
+.bgc-green{
+   background-color: green;
+}
+   /* Structure */
+
+.full-page{
+   height: 100vh;
+   position: relative;
+}
+.full-page .content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   text-align: center;
+}
+
+.main-menu{
+   position: fixed;
+   z-index: 1;
+   top: 30px;
+   right: 10px;
+}
+.main-menu li{
+   list-style: none;
+   display: inline-block;
+   margin: 10px;
+}
+
+.main-menu ul{
+   top: 0;
+   right: 0;
+}
+
+.main-menu li a{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   background-color: white;
+   border-radius: 50%;
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+}
+.product-text{
+    text-align: center;
+}
+/* Hover Effects */
+
+.main-menu a:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.product-image:hover{
+    transform: scale(2);
+    transform: rotate(10deg);
+    cursor: pointer;   
+}
