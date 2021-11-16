@@ -13,6 +13,7 @@
     
  body{
         font-family: 'Rubik Mono One', sans-serif;
+        overflow: hidden;
 }
 
 .text50px{
