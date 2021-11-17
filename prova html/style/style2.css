@@ -80,6 +80,7 @@ body{
    text-decoration: none;
    color: black;
    font-size: 16px;
+   opacity: 0.5;
 }
 .product-text{
     text-align: center;
@@ -87,13 +88,18 @@ body{
 /* Hover Effects */
 
 .main-menu a:hover{
-    transform: scale(1.2);
-    cursor: pointer;
+   transform: scale(1.4);
+   cursor: pointer;
+   border: 2px solid;
+   border-color: black;
+   color: black;
+   opacity: 0.9;
 
 }
 
 .product-image:hover{
     transform: scale(2);
     transform: rotate(10deg);
-    cursor: pointer;   
+    cursor: pointer;  
+
 }
