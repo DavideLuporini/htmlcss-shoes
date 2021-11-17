@@ -82,6 +82,9 @@ html{
     font-size: 16px;
 }
 
+content .product-image{
+    max-width: 100%;
+}
 .product-text{
     text-align: center;
 }
